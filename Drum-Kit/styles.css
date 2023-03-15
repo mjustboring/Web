@@ -1,0 +1,37 @@
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  margin-top: 8vw;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+  margin: 8vw 0;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  border: 10px solid #404B69;
+  border-radius: 15px;
+  display: inline-block;
+  width: 38vw;
+  height: 38vw;
+  margin-top: 8vw;
+  background-color: white;
+}

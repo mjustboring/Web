@@ -1,0 +1,136 @@
+:root {
+    --h: 80vh;
+    --w: calc(var(--h) / 2.5);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: #151413;
+    height: 100%;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    width: var(--w);
+    height: var(--h);
+    background: #0A0908;
+    border-radius: 8px;
+    position: relative;
+    overflow: hidden;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+    background: #020100;
+    padding-top: 12px;
+    padding-bottom: 8px;
+    position: absolute;
+    bottom: 0;
+}
+
+.about, .interests {
+    margin-left: 32px;
+    margin-right: 32px;
+    margin-top: 32px;
+}
+
+.about-head, .interests-head {
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+.about-text, .interests-text {
+    color: lightgrey;
+    font-weight: bold;
+    font-size: small;
+}
+
+.info {
+    text-align: center;
+}
+
+.info-pic {
+    width: var(--w);
+    height: var(--w);
+}
+
+.name {
+    color: whitesmoke;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+.occupation {
+    color: lightgrey;
+    margin-bottom: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5em;
+    width: 100%;
+}
+
+.buttons img {
+    height: 1.2em;
+    width: 1.2em;
+    padding-bottom: 0.1em;
+}
+
+.email, .linkedin {
+    width: 35%;
+    height: 2.25em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
+    font-size: small;
+    font-weight: bolder;
+    border: 0;
+    border-radius: 0.2em;
+}
+
+.email {
+    color: bkack;
+    background: lightgray;
+}
+
+.linkedin {
+    color: white;
+    background: #27F;
+}
+
+.email:link, .linkedin:link, .email:visited, .linkedin:visited {
+    text-decoration: none;
+}
+
+.email:link, .email:visited {
+    color: black;
+}
